@@ -1,0 +1,41 @@
+body {font-family: 'Raleway', sans-serif;}
+
+#name {
+padding: 20px 10px;
+margin-bottom: 0;}
+#menu {list-style-type: none;
+    margin-left: 570px;
+    margin-top: 0;
+}
+.menu-li {display: inline-table;
+padding: 10px 15px;
+margin: 10px 25px;}
+
+#image-background {background-image: url("https://images.pexels.com/photos/7909544/pexels-photo-7909544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    padding: 120px 140px;
+    text-align: center;
+    margin: 0 auto;}
+
+#makeAppointment, #learnServices {color: black;
+    background-color: whitesmoke;
+    padding: 8px 13px;
+margin: 18px 25px;
+border: 1px solid black;
+border-radius: 2px;
+box-shadow: 2px 2px 4px rgb(85, 84, 84);}
+
+#makeAppointment:hover {color: white;
+    background-color: black;
+    transition: all 200ms ease-in-out;}
+
+#learnServices:hover {color: white;
+background-color: black;
+transition: all 200ms ease-in-out;}
+
+h2 {text-align: center;
+padding: 25px 15px;
+margin: 0 auto;}
+
+#service-list {list-style-type: none;}
+
+.about-us {max-width: 50%;}
