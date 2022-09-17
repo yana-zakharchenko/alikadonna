@@ -7,19 +7,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/a5a8abe65c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Alika Donna</title>
+    <title>Косметолог Alika Donna</title>
 </head>
 <body>
-    <div class="container">
-    <p id="name">Косметолог Аліка Донна👄</p>
-    <ul id="menu">
-        <li class="menu-li">Послуги</li>
-        <li class="menu-li">Про нас</li>
-        <li class="menu-li">Контакти</li>
-    </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Alika Donna</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Головна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/services.html">Послуги</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/about.html">Про нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Контакти</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="container">
     <div id="image-background">
 <h1>Краса – і тільки, трішечки краси, душі нічого більше не потрібно.
 </h1>
@@ -28,12 +48,12 @@
 </div>
 <div id="service-container">
 <h2>Меню послуг</h2>
-<ul id="service-list">
-    <li>Аугментація губ</li>
-    <li>Контурна пластика обличчя</li>
-    <li>Ботулінотерапія</li>
-    <li>Робота з якістю шкіри</li>
-    <li>Зменшення підшкірно-жирової клітковини</li>
+<div class="row" id="service-list">
+    <span class="col-2">Аугментація губ</span>
+    <span class="col-2">Контурна пластика обличчя</span>
+    <span class="col-2">Ботулінотерапія</span>
+    <span class="col-2">Робота з якістю шкіри</span>
+    <span class="col-2">Зменшення підшкірно-жирової клітковини</span>
 </ul>
 </div>
 <div id="about-container">
@@ -41,14 +61,13 @@
 <span class="about-us"><img src="img/A78CABCA-644D-4ED0-8A88-317F70467902.JPG" alt="Alika's photo" width="250px"></span>
 <span class="about-us">Історія від Аліки бла-бла-бла-бла-бла-бла-бла бла-бла-бла-бла-бла-бла бла-бла-бла-бла бла-бла-бла-бла-бла-бла</span>
 </div>
-<div id="contacts-container">
-<h2>Контакти</h2>
-<ul class="contact-info">
-    <li>tel. +380 (95) 137 90 00</li>
-    <li>insta: dr.alikadona</li>
-    <li>adress: м.Запоріжжя, вул.Святого Миколая, 33</li>
-</ul>
-</div>
+
+<footer>
+    <i class="fa-solid fa-phone"> +380 (95) 137 90 00</i>
+    <i class="fa-brands fa-instagram"> dr.alikadona</i>
+    <i class="fa-solid fa-location-dot"> м.Запоріжжя, вул.Святого Миколая, 33</i>
+</footer>
+
 </div>
  <script src="src/app.js"></script>   
 </body>
